@@ -1,4 +1,4 @@
-import { ChannelLimits, GlobalRateLimits, GuildLimits, MessageLimits, RateLimits, UserLimits } from ".";
+import { ChannelLimits, GuildLimits, MessageLimits, RateLimits, UserLimits } from ".";
 
 export class LimitsConfiguration {
 	user: UserLimits = new UserLimits();
@@ -6,5 +6,4 @@ export class LimitsConfiguration {
 	message: MessageLimits = new MessageLimits();
 	channel: ChannelLimits = new ChannelLimits();
 	rate: RateLimits = new RateLimits();
-	absoluteRate: GlobalRateLimits = new GlobalRateLimits();
 }

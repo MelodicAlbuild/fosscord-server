@@ -32,5 +32,3 @@ yarn.lock
 dbconf.json
 
 migrations.db
-
-package-lock.json
